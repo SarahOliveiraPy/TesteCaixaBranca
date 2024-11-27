@@ -1,5 +1,8 @@
 Teste de Caixa Branca
 
+![image](https://github.com/user-attachments/assets/d854b698-6852-4114-883a-a581507cca25)
+
+
 Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
 
 🗯️Vulnerabilidade a SQL Injection:
