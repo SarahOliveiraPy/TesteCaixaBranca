@@ -1,11 +1,11 @@
-Teste de Caixa Branca
+## Teste de Caixa Branca
 
-GRAFO CÓDIGO
+### GRAFO CÓDIGO
 
 ![image](https://github.com/user-attachments/assets/d854b698-6852-4114-883a-a581507cca25)
 
 
-Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
+### Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
 
 🗯️Vulnerabilidade a SQL Injection:
 Os valores de login e senha são adicionados diretamente à consulta SQL, sem nenhuma validação ou proteção, tornando o código inseguro.
@@ -32,7 +32,26 @@ A chamada Class.forName(...).newInstance() é obsoleta e desnecessária.
 🗯️Inicialização inútil da variável sql:
 A variável sql é iniciada com uma string vazia, mas isso não é útil, pois ela é sobrescrita logo em seguida.
 
-![image](https://github.com/user-attachments/assets/fbe09f7d-00a4-4999-8d0b-e21d9625900b)
-
 🗯️Campo 'nome' sem propósito:
 Apesar de capturar o valor do nome no banco, ele não é usado em nenhuma outra parte do código.
+
+### Complexidade Ciclômica
+A complexidade ciclômica do método foi calculada como:
+
+\[
+M = E - N + 2P = 10 - 8 + 2 = 4
+\]
+
+### Caminhos Básicos
+Os caminhos básicos identificados no método são:
+
+1. **Caminho 1**: \(P1 → P2 → P3 → P8\)  
+   - Fluxo em que a conexão falha.
+2. **Caminho 2**: \(P1 → P2 → P3 → P4 → P5 → P6 → P8\)  
+   - Conexão válida, mas consulta sem resultados.
+3. **Caminho 3**: \(P1 → P2 → P3 → P4 → P5 → P6 → P7 → P8\)  
+   - Conexão válida e consulta retorna resultados.
+4. **Caminho 4**: Fluxo em que exceções ocorrem (erros não tratados).
+
+![image](https://github.com/user-attachments/assets/fbe09f7d-00a4-4999-8d0b-e21d9625900b)
+
