@@ -28,8 +28,11 @@ O código não verifica se a conexão retornada (conn) é válida antes de usá-
 🗯️Uso desnecessário de .newInstance():
 A chamada Class.forName(...).newInstance() é obsoleta e desnecessária.
 
+
 🗯️Inicialização inútil da variável sql:
 A variável sql é iniciada com uma string vazia, mas isso não é útil, pois ela é sobrescrita logo em seguida.
+
+![image](https://github.com/user-attachments/assets/fbe09f7d-00a4-4999-8d0b-e21d9625900b)
 
 🗯️Campo 'nome' sem propósito:
 Apesar de capturar o valor do nome no banco, ele não é usado em nenhuma outra parte do código.
