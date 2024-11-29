@@ -1,6 +1,7 @@
-## Teste de Caixa Branca
+# Teste de Caixa Branca
 
-### GRAFO CÓDIGO
+## Grafo de Fluxo
+## O grafo abaixo representa os fluxos lógicos do método verificarUsuario, destacando as ações, decisões e saídas:
 
 ![image](https://github.com/user-attachments/assets/7e174084-60c7-4119-8afd-97cd28c493a1)
 
