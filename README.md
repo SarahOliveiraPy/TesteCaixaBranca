@@ -2,7 +2,8 @@
 
 ### GRAFO CÓDIGO
 
-![image](https://github.com/user-attachments/assets/d854b698-6852-4114-883a-a581507cca25)
+![image](https://github.com/user-attachments/assets/7e174084-60c7-4119-8afd-97cd28c493a1)
+
 
 
 ### Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
