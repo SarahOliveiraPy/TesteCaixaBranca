@@ -5,7 +5,8 @@ Este projeto é um exemplo básico de como implementar um sistema de login utili
 ## Grafo de Fluxo
 ## O grafo abaixo representa os fluxos lógicos do método verificarUsuario, destacando as ações, decisões e saídas:
 
-![image](https://github.com/user-attachments/assets/7e174084-60c7-4119-8afd-97cd28c493a1)
+![image](https://github.com/user-attachments/assets/139b7349-aad6-45d5-bffd-5ca775ff5705)
+
 
 # Legenda dos Pontos Numerados
 Aqui estão os principais pontos do método verificarUsuario:
