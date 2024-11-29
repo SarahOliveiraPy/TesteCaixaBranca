@@ -35,4 +35,5 @@ Apesar de capturar o valor do nome no banco, ele não é usado em nenhuma outra 
 ![Grafo de Fluxo]
 ## O grafo abaixo representa os fluxos lógicos do método verificarUsuario, destacando as ações, decisões e saídas:
 
-![image](https://github.com/user-attachments/assets/fd317842-af20-4cfb-a820-07cb9eb02e45)
+![image](https://github.com/user-attachments/assets/c455e0b5-8d12-4a96-98e4-c05b6ab3bc31)
+
