@@ -1,6 +1,8 @@
-# Teste de Caixa Branca
+# Projeto de Login (TESTE DE CAIXA BRANCA)
+O que é este projeto?
+Este projeto é um exemplo básico de como implementar um sistema de login utilizando Java e MySQL. Ele se conecta a um banco de dados para verificar se o nome de usuário e a senha estão corretos.
 
-Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
+## Abaixo estão os erros encontrados nesse código, que não o deixam eficiente.
 
 ## Vulnerabilidade a SQL Injection:
 Os valores de login e senha são adicionados diretamente à consulta SQL, sem nenhuma validação ou proteção, tornando o código inseguro.
